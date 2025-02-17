@@ -4,7 +4,7 @@
  * main - Print the size of types on systeme
  *
  * Return: Always 0 (Success)
-*/
+ */
 
 int main(void)
 {
