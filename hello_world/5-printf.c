@@ -2,7 +2,6 @@
 
 /**
  * main -entry point
- *
  * return: Always 0 (Succes)
  */
 
