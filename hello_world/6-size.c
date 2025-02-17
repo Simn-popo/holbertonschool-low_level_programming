@@ -1,7 +1,7 @@
 #include <studio.h>
 
 /**
- * main - Print th size of types on systeme
+ * main - Print the size of types on systeme
  *
  * Return: Always 0 (Success)
 */
