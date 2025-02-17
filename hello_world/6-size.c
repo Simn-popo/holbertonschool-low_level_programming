@@ -1,6 +1,8 @@
 #include <studio.h>
+
 /**
- * main - Entry point
+ * main - Print th size of types on systeme
+ *
  * Return: Always 0 (Success)
 */
 
