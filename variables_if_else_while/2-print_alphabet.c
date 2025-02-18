@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - print alpha in minuscule
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
