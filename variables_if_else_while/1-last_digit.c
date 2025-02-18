@@ -4,7 +4,8 @@
 
 /**
  * main - copy last digit
- * return (0) Always (success)
+ * 
+ * Return (0) Always (success)
  */
 
 int main(void)
