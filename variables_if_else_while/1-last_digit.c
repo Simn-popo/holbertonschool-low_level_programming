@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - copy last digit
+ * main -copy last digit
  *
  * Return 0 Always (success)
  */
