@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main -copy last digit
+ * main - find ramdom number et show last digit
  *
- * Return 0 Always (success)
+ * Return: (0) Always (success)
  */
 
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 	if (n % 10 > 5)
 	{
 		printf("and is greater than 5\n");
-	}
+
 	else if (n % 10 == 0)
 	{
 		printf("and is 0\n");
