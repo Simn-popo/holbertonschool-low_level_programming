@@ -4,7 +4,7 @@
 
 /**
  * main - copy last digit
- * 
+ *
  * Return (0) Always (success)
  */
 
