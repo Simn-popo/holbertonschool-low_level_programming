@@ -8,19 +8,17 @@
 
 int main(void)
 {
-	int n;
+	int n,l;
 
 	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
 
-	int l;
-
-	for (l = 97; l < 103; l++)
-	{
-		putchar(l);
-	}
+		for (l = 97; l < 103; l++)
+		{
+			putchar(l);
+		}	
 	putchar('\n');
 	return (0);
 }
