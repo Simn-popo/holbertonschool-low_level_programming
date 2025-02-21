@@ -1,5 +1,5 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef header_h
+#define header_h
 
 int _putchar(char c);
 
