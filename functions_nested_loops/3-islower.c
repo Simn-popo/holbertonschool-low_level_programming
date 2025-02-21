@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - lfkfjfjfk
- * 
+ * _islower - check if lowercase
+ * @c: int
+ *
  * Return: (0)
  */
 
