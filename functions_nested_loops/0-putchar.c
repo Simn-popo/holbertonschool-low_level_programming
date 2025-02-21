@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<HEADER_H>
 
 /**
  * main - write _putchar
