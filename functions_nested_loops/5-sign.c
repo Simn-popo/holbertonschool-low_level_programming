@@ -4,7 +4,7 @@
  * print_sign - print the sign of number
  * @n: valeur
  *
- * Return: (0) 
+ * Return: (0)
  */
 
 int print_sign(int n)
