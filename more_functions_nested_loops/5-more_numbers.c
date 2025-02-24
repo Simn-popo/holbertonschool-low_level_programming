@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - print 01234567891011121314 ten time '\n'
- *
- * Return: (0)
+ * more_numbers - print ten time
  */
 
 void more_numbers(void)
@@ -18,6 +16,6 @@ void more_numbers(void)
 			_putchar(b / 10 + '0');
 			_putchar(b % 10 + '0');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
