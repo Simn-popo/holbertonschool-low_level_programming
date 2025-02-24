@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isupper - check uppercasse
+ * _isupper - check uppercasse
  * @c: value
  *
  * Return: 1 if uppercasse, return (0) otherwise
