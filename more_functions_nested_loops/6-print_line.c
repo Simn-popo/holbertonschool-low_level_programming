@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print line - print straitgh line
+ * print_line - print straitgh line
  * @n: value
+ *
+ * Return: (0)
  */
 
 void print_line(int n)
