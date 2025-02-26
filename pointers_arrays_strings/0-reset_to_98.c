@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - print the value of int
- * @*n: value
+ * @n: value
  */
 
 void reset_to_98(int *n)
