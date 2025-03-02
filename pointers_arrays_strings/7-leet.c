@@ -11,20 +11,21 @@
 
 char *leet(char *s)
 {
-	char *temp;
+	char *p = s;
+	char let[] = "aAeEoOtTlL";
+	char num[] = "4433007711";
+	int i;
 
-	temp  = s;
-
-	while (*s)
+	while (*p)
 	{
-		(*s == 'a' || *s == 'A') ? *s = '4' : 0;
-		(*s == 'e' || *s == 'E') ? *s = '3' : 0;
-		(*s == 'o' || *s == 'O') ? *s = '0' : 0;
-		(*s == 't' || *s == 'T') ? *s = '7' : 0;
-		if (*s == 'l' || *s == 'L')
-			(*s) = '1';
-		s++;
+		for (i = 0; i < 10; i++)
+		{
+			if (*p == let[i])
+			{
+				*p = num[i];
+			}
+		}
+		p++;
 	}
-
-	return (temp);
+	return (s);
 }
