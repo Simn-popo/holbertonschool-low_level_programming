@@ -14,10 +14,10 @@ char *create_array(unsigned int size, char c)
 
 	char *tab = (char *)malloc(size * sizeof(char));
 
-	if (tab == 0)
+	if (tab == NULL)
 
 	{
-		return ('\0');
+		return (NULL);
 	}
 
 	for (a = 0; a < size; a++)
