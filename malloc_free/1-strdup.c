@@ -13,25 +13,29 @@
 
 char *_strdup(char *str)
 {
-	int a, b;
-	char *clo;
+	int i;
+	int j;
+	char *copy;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (b = 0; str[b] != '\0'; b++)
+
+	for (j = 0; str[j] != '\0'; j++)
 	{
 	}
-	clo = malloc(sizeof(char) * (b + 1));
-	if (clo == NULL)
+
+	copy = malloc(sizeof(char) * j + 1);
+
+	if (copy == NULL)
 	{
 		return (NULL);
 	}
-	for (a = 0; a < b; a++)
+
+	for (i = 0; i < j; i++)
 	{
-		clo[a] = str[b];
+		copy[i] = str[i];
 	}
-	clo[b] = '\0';
-	return (clo);
+	return (copy);
 }
