@@ -29,16 +29,11 @@ char *str_concat(char *s1, char *s2)
 	copy = malloc(sizeof(char) * (len1 + len2 + 1));
 	if (!copy)
 		return (NULL);
-	while (i <= len1)
-	{
+	for (i = 0; i < len1; i++)
 		copy[i] = s1[i];
-		i++;
-	}
-	while (j <= len2)
-	{
+	for (j = 0; j < len2; j++)
 		copy[j] = s2[j];
-		j++;
-	}
-	copy[i] = '\0';
+	
+	copy[i + j] = '\0';
 	return (copy);
 }
