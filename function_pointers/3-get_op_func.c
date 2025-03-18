@@ -1,4 +1,4 @@
-#include "cal.h"
+#include "calc.h"
 #include <stdio.h>
 
 /**
