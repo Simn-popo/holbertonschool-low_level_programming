@@ -19,6 +19,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		total += va_arg(args, int);
+		printf("%d", total);
 	}
 	if (separator != NULL && i < n - 1)
 	{
