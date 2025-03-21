@@ -2,6 +2,9 @@
 #define variadic_h
 
 #include <stdarg.h>
+/**
+ * op - struc
+ */
 
 typedef struct op
 {
