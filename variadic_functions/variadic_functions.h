@@ -1,6 +1,14 @@
 #ifndef variadic_h
 #define variadic_h
 
+#include <stdarg.h>
+
+typedef struct op
+{
+	char form;
+	void (*f)(va_list);
+} op_t;
+
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
